@@ -1,0 +1,5 @@
+string text
+bool mode
+---
+string iat_text
+string nlp_text

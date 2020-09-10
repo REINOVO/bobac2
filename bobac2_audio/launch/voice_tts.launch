@@ -1,0 +1,3 @@
+<launch>
+  <node name="voice_tts" pkg="bobac2_audio" type="voice_tts_node" output="screen"/>
+</launch>

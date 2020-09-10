@@ -1,0 +1,3 @@
+<launch>
+  <node name="voice_mode" pkg="bobac2_audio" type="voice_mode_node" output="screen"/>
+</launch>

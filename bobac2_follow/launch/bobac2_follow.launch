@@ -1,0 +1,7 @@
+<launch>
+	<node pkg="bobac2_follow" type="bobac2_follow_node" name="bobac2_follow_node" output="screen">
+		<remap from="follow_vel" to="cmd_vel"/>
+	</node>
+    <include file="$(find skeleton_track)/launch/skeleton_track.launch"/>
+    <include file="$(find bobac2_base)/launch/bobac2_base.launch"/>
+</launch>

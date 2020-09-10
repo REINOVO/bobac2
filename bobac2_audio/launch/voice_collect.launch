@@ -1,0 +1,5 @@
+<launch>
+  <node name="voice_collect" pkg="bobac2_audio" type="voice_collect_node" output="screen">
+    <param name="audio_file" type="string" value="./voice_config/voice_collect/1.wav"/>
+  </node>
+</launch>
